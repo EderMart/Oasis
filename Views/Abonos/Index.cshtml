@@ -1,0 +1,108 @@
+﻿@model IEnumerable<Oasis.Models.Abono>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+
+    <div class="card-header">
+
+        <h5>
+            <i class="fas fa-table me-1"></i>
+            Lista de Abonos
+        </h5>
+
+    </div>
+
+    <div class="card-body">
+
+        <div>
+            <a class="btn btn-success btn-sm" asp-action="Create">Crear Abono</a>
+        </div>
+
+        <br />
+
+        <form>
+
+            <div class="col-md-2">
+                <input type="text" class="form-control" placeholder="Buscar">
+            </div>
+
+        </form>
+
+        <br />
+
+        <table class="table table-bordered table-hover">
+            <thead class="table-success">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Documento)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Fecha)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Estado)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.TotalPendiente)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.TotalAbonado)
+                    </th>
+                    <th> Acciones </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Documento)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Fecha)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Estado)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TotalPendiente)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TotalAbonado)
+                        </td>
+                        <td>
+                            <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@item.CodigoAbono">Editar</a> |
+                            <a class="btn btn-primary btn-sm" asp-action="Details" asp-route-id="@item.CodigoAbono">Detalle</a> |
+                            <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.CodigoAbono">Anular</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+
+        <nav class="position-relative bottom-0" aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+
+</div>

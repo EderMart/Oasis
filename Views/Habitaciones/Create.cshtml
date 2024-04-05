@@ -1,0 +1,69 @@
+﻿@model Oasis.Models.Habitacione
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Crear habitación</h1>
+
+<hr />
+<form asp-action="Create">
+    <div class="row">  
+        <div class="col-md-4">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NombreHabitacion" class="control-label"></label>
+                <input asp-for="NombreHabitacion" class="form-control" />
+                <span asp-validation-for="NombreHabitacion" class="text-danger"></span>
+            </div>
+
+            <br />
+
+            <div class="form-group">
+                <label asp-for="CodigoTipoHab" class="control-label"></label>
+                <input asp-for="CodigoTipoHab" class ="form-control" asp-items="ViewBag.CodigoTipoHab">
+            </div>
+
+            <br />
+
+            <div class="form-group">
+                <label asp-for="EstadoHabitacion" class="control-label"></label>
+                <select asp-for="EstadoHabitacion" class="form-control">
+                    <option selected disabled>  Selecciona  </option>
+                    <option>  Habilitada  </option>
+                    <option>  Inhabilitada  </option>
+                </select>
+                <span asp-validation-for="EstadoHabitacion" class="text-danger"></span>
+            </div>
+
+            <br />
+
+            <div class="form-group">
+                <label asp-for="Descripcion" class="control-label"></label>
+                <textarea asp-for="Descripcion" class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+
+            <br />
+
+            <div class="form-group">
+                <label asp-for="Precio" class="control-label"></label>
+                <input asp-for="Precio" class="form-control" placeholder="$" />
+                <span asp-validation-for="Precio" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <br />
+
+    <div class="form-group">
+        <input type="submit" value="Crear" class="btn btn-primary" />  |
+        <a asp-action="Index" class="btn btn-dark">Atrás</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

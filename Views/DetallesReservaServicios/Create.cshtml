@@ -1,0 +1,50 @@
+﻿@model Oasis.Models.DetallesReservaServicio
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Crear DetallesReservaServicio</h1>
+
+
+<hr />
+<form asp-action="Create">
+    <div class="row">
+        <div class="col-md-4">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CodigoReserva" class="control-label"></label>
+                <input asp-for="CodigoReserva" class ="form-control" asp-items="ViewBag.CodigoReserva" />
+            </div>
+
+            <br />
+
+            <div class="form-group">
+                <label asp-for="CodigoServicio" class="control-label"></label>
+                <input asp-for="CodigoServicio" class ="form-control" asp-items="ViewBag.CodigoServicio" />
+            </div>
+
+            <br />
+
+            <div class="form-group">
+                <label asp-for="Precio" class="control-label"></label>
+                <input asp-for="Precio" class="form-control" placeholder="$" />
+                <span asp-validation-for="Precio" class="text-danger"></span>
+            </div>
+
+        </div>
+    </div>
+
+    <br />
+
+    <div class="form-group">
+        <input type="submit" value="Crear" class="btn btn-primary" /> |
+        <a asp-action="Index" class="btn btn-dark">Atrás</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

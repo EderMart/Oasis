@@ -1,0 +1,37 @@
+﻿@model Oasis.Models.PermisosRole
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>PermisosRole</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CodigoRol" class="control-label"></label>
+                <select asp-for="CodigoRol" class ="form-control" asp-items="ViewBag.CodigoRol"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="CodigoPermiso" class="control-label"></label>
+                <select asp-for="CodigoPermiso" class ="form-control" asp-items="ViewBag.CodigoPermiso"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

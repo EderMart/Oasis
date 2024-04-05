@@ -1,0 +1,407 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Oasis
+build_property.RootNamespace = Oasis
+build_property.ProjectDir = C:\Users\57320\Desktop\PROGRAMACIÓN\DasboardFinalAspNet\Oasis\Oasis\Oasis\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\57320\Desktop\PROGRAMACIÓN\DasboardFinalAspNet\Oasis\Oasis\Oasis
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Abonos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvbm9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Abonos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvbm9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Abonos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvbm9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Abonos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvbm9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Abonos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvbm9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Clientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Clientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Clientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Clientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/DetallesReservaPaquetes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNSZXNlcnZhUGFxdWV0ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/DetallesReservaPaquetes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNSZXNlcnZhUGFxdWV0ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/DetallesReservaPaquetes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNSZXNlcnZhUGFxdWV0ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/DetallesReservaPaquetes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNSZXNlcnZhUGFxdWV0ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/DetallesReservaPaquetes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNSZXNlcnZhUGFxdWV0ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/DetallesReservaServicios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNSZXNlcnZhU2VydmljaW9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/DetallesReservaServicios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNSZXNlcnZhU2VydmljaW9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/DetallesReservaServicios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNSZXNlcnZhU2VydmljaW9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/DetallesReservaServicios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNSZXNlcnZhU2VydmljaW9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/DetallesReservaServicios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNSZXNlcnZhU2VydmljaW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/EstadoReservas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvUmVzZXJ2YXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/EstadoReservas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvUmVzZXJ2YXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/EstadoReservas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvUmVzZXJ2YXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/EstadoReservas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvUmVzZXJ2YXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/EstadoReservas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvUmVzZXJ2YXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Habitaciones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFiaXRhY2lvbmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Habitaciones/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFiaXRhY2lvbmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Habitaciones/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFiaXRhY2lvbmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Habitaciones/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFiaXRhY2lvbmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Habitaciones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFiaXRhY2lvbmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/MetodoPagos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0b2RvUGFnb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/MetodoPagos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0b2RvUGFnb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/MetodoPagos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0b2RvUGFnb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/MetodoPagos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0b2RvUGFnb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/MetodoPagos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWV0b2RvUGFnb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/PaqueteServicios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZVNlcnZpY2lvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/PaqueteServicios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZVNlcnZpY2lvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/PaqueteServicios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZVNlcnZpY2lvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/PaqueteServicios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZVNlcnZpY2lvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/PaqueteServicios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZVNlcnZpY2lvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Paquetes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Paquetes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Paquetes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Paquetes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Paquetes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFxdWV0ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/PermisosRoles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb3NSb2xlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/PermisosRoles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb3NSb2xlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/PermisosRoles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb3NSb2xlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/PermisosRoles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb3NSb2xlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/PermisosRoles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb3NSb2xlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Permisos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Permisos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Permisos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Permisos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Permisos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Reservas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Reservas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Reservas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Reservas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Reservas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Roles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Roles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Roles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Roles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Roles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Servicios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljaW9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Servicios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljaW9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Servicios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljaW9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Servicios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljaW9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Servicios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljaW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/TipoDocumentos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0RvY3VtZW50b3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/TipoDocumentos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0RvY3VtZW50b3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/TipoDocumentos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0RvY3VtZW50b3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/TipoDocumentos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0RvY3VtZW50b3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/TipoDocumentos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0RvY3VtZW50b3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/TipoHabitaciones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0hhYml0YWNpb25lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/TipoHabitaciones/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0hhYml0YWNpb25lc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/TipoHabitaciones/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0hhYml0YWNpb25lc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/TipoHabitaciones/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0hhYml0YWNpb25lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/TipoHabitaciones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0hhYml0YWNpb25lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/TipoServicios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1NlcnZpY2lvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/TipoServicios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1NlcnZpY2lvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/TipoServicios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1NlcnZpY2lvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/TipoServicios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1NlcnZpY2lvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/TipoServicios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1NlcnZpY2lvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/57320/Desktop/PROGRAMACIÓN/DasboardFinalAspNet/Oasis/Oasis/Oasis/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-rr00gyc2ct

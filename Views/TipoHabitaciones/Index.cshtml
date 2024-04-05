@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Oasis.Models.TipoHabitacione>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+
+    <div class="card-header">
+        <h5>
+            <i class="fas fa-table me-1"></i>
+            Lista tipo de Habitaciones 
+        </h5>
+    </div>
+
+    <div class="card-body">
+
+        <div>
+            <a asp-action="Create" class="btn btn-success btn-sm">Crear</a>
+        </div>
+
+        <br />
+
+        <form>
+
+            <div class="col-md-2">
+                <input type="text" class="form-control" placeholder="Buscar">
+            </div>
+
+        </form>
+
+        <br />
+
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NombreTipoHab)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.EstadoTipoHab)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NumPersonas)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NombreTipoHab)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.EstadoTipoHab)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NumPersonas)
+                        </td>
+                        <td>
+                            <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@item.CodigoTipoHab">Editar</a> |
+                            <a class="btn btn-primary btn-sm" asp-action="Details" asp-route-id="@item.CodigoTipoHab">Detalle</a> |
+                            <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.CodigoTipoHab">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+
+    </div>
+
+</div>
