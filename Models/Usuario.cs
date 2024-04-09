@@ -7,29 +7,31 @@ public partial class Usuario
 {
     public int Documento { get; set; }
 
-    public string Nombre { get; set; } = null!;
+    public string? Nombre { get; set; } 
 
-    public string Apellido { get; set; } = null!;
+    public string? Apellido { get; set; }
 
-    public string Celular { get; set; } = null!;
+    public string? Celular { get; set; } 
 
-    public string Correo { get; set; } = null!;
+    public string? Correo { get; set; } 
 
-    public string Ciudad { get; set; } = null!;
+    public string? Ciudad { get; set; } 
 
-    public string Genero { get; set; } = null!;
+    public DateTime? FechaNacimiento { get; set; }
 
-    public string Contraseña { get; set; } = null!;
+    public string? Genero { get; set; } 
 
-    public string Telefono { get; set; } = null!;
+    public string? Contraseña { get; set; }
 
-    public string Direccion { get; set; } = null!;
+    public string? Telefono { get; set; } 
+
+    public string? Direccion { get; set; }
 
     public bool? Estado { get; set; }
 
     public int? CodigoRol { get; set; }
 
-    public int CodigoTipoDoc { get; set; }
+    public int? CodigoTipoDoc { get; set; }
 
     public virtual Role CodigoRolNavigation { get; set; } = null!;
 

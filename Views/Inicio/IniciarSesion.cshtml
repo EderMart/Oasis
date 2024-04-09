@@ -1,4 +1,5 @@
-﻿
+﻿@model Oasis.Models.Usuario;
+
 @{
     Layout = null;
 }
@@ -10,60 +11,41 @@
     <meta name="viewport" content="width=device-width" />
     <title>IniciarSesion</title>
     <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet" /> 
+    
 </head>
 <body>
 
-    <div class="container mt-5 pt-5">
-
+    <div class="mt-4 ">
         <div class="row justify-content-center">
-            <div class="col-12 col-xl-4 col-md-6">
-
-                <div class="card">
-                    <div class="card-header">
-                        Iniciar Sesion
+            <div class="col-xl-7 col-md-6">
+                <!-- Cambié la clase col-3 por col-6 y col-md-6 por col-md-8 -->
+                <div class="container">
+                    <div class=" text-center">
+                        <h2>Iniciar Sesión</h2>
                     </div>
                     <div class="card-body">
-
                         <form asp-controller="Inicio" asp-action="IniciarSesion">
-
                             <input class="form-control mb-3" type="text" placeholder="Correo" required name="correo" />
                             <input class="form-control mb-3" type="password" placeholder="Contraseña" required name="contraseña" />
                             <div class="d-grid gap-2 mb-3">
-                                <button class="btn btn-primary" type="submit">Iniciar Sesion</button>
+                                <button class="btn btn-primary" type="submit">Iniciar Sesión</button>
                             </div>
-                            @if(ViewData["Mensaje"] != null)
+                            @if (ViewData["Mensaje"] != null)
                             {
-
                                 <div class="form-group">
                                     <div class="alert alert-danger" role="alert">
                                         @ViewData["Mensaje"]
                                     </div>
                                 </div>
                             }
-                            ¿No tienes una cuenta? <a href="@Url.Action("Registrarse","Inicio")">Registrate!</a>
-
+                            ¿No tienes una cuenta? <a href="@Url.Action("Registrarse","Inicio")">Regístrate!</a>
                         </form>
-
-
                     </div>
                 </div>
-
             </div>
-
         </div>
-        
     </div>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -72,3 +54,7 @@
     <script src="~/js/datableDemo.js"></script>
 </body>
 </html>
+
+
+
+

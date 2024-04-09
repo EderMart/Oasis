@@ -7,6 +7,8 @@
 
 @section Scripts {
     <script src="~/js/CambioEstado.js"></script>
+    
+
 }
 
 <div class="card">
@@ -80,7 +82,7 @@
                         </td>
                         <td>
                             <div class="form-check form-switch fs-4" data-url="@Url.Action("ActualizarEstado", "Usuarios")" data-idusuario="@item.Documento">
-                                <input @(item.Estado == true ? "checked" : "") type="checkbox" class="form-check-input usuario-estado" id="estado" data-idusuario="@item.Documento" />
+                                <input  @(item.Estado == true ? "checked" : "") type="checkbox" class="form-check-input usuario-estado" id="estado" data-idusuario="@item.Documento" />
                             </div>
                         </td>
 
@@ -97,3 +99,5 @@
     </div>
 
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>

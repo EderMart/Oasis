@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Details</h1>
+<h1>Detalle</h1>
 
 <div>
     <h4>Usuario</h4>
@@ -72,20 +72,20 @@
             @Html.DisplayFor(model => model.Estado)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CodigoRolNavigation)
+            @Html.DisplayNameFor(model => model.CodigoRolNavigation.NombreRol)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CodigoRolNavigation.CodigoRol)
+            @Html.DisplayFor(model => model.CodigoRolNavigation.NombreRol)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CodigoTipoDocNavigation)
+            @Html.DisplayNameFor(model => model.CodigoTipoDocNavigation.NombreTipoDoc)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CodigoTipoDocNavigation.CodigoTipoDoc)
+            @Html.DisplayFor(model => model.CodigoTipoDocNavigation.NombreTipoDoc)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Documento">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.Documento">Editar</a> |
+    <a asp-action="Index" class="btn btn-dark">Atras</a>
 </div>

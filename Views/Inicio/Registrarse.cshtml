@@ -4,214 +4,152 @@
 }
 
 <!DOCTYPE html>
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Registrarse</title>
     <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet" />
+    
 </head>
 <body>
-
-    <form asp-controller="Inicio" asp-action="Registrarse" method="post">
-        <div class="container mt-5 pt-5">
-
-            <div class="row justify-content-center">
-                <div class="col-30 col-xl-8 col-md-12">
-
-                    <div class="card">
-                        <div class="card-header">
-                            Registrate
-                         </div>
-
-                            <div class="card-body">
-
+    <div class=" mt-4">
+        <div class="row justify-content-center">
+            <div class="col-xl-7 col-md-6">
+                
+                <form asp-controller="Inicio" asp-action="Registrarse" method="post" >
+                    <div class="container">
+                        <div class="text-center">
+                            <h2>Crear Cuenta</h2>
+                        </div>
+                        <div class="forms-container" >
                             <div class="row">
-                                <div class="col-md-4">
-
+                            
+                                <div class="col-md-6">
                                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-                                    <div class="form-group">
-                                        <div class="">
-                                            <label>Tipo de documento</label>
-                                            <select name="TipoDocumento" required>
-                                                <option disabled selected>Tipo de documento</option>
-                                                <option value="1">Tarjeta de identidad</option>
-                                                <option value="2">Cédula de ciudadanía</option>
-                                                <option value="3">Tarjeta de extranjería</option>
-                                                <option value="4">Cédula de extranjería</option>
-                                                <option value="5">Pasaporte</option>
-                                                <option value="6">Tipo de documento extranjero</option>
-                                            </select>
-                                            <label asp-for="Documento" class="control-label" required></label>
-                                            <input asp-for="Documento" class="form-control" required/>
-                                            <span asp-validation-for="Documento" class="text-danger" required></span>
-
-                                        </div>
-                                        
+                                    <div class="input-group" required>
+                                        <select id="tipoDocumento" name="TipoDocumento" required>
+                                            <option disabled selected>Tipo de documento</option>
+                                            <option value="1">Tarjeta de identidad</option>
+                                            <option value="2">Cédula de ciudadanía</option>
+                                            <option value="3">Tarjeta de extranjería</option>
+                                            <option value="4">Cédula de extranjería</option>
+                                            <option value="5">Pasaporte</option>
+                                            <option value="6">Tipo de documento extranjero</option>
+                                        </select>
 
                                     </div>
 
-                                    <br />
+                                    <div class="form-group">
+                                        
+                                        <input asp-for="Documento" class="form-control" placeholder="Documento" required />
+                                        <span asp-validation-for="Documento" class="text-danger" placeholder="Documento" required></span>
+                                    </div>
 
                                     <div class="form-group">
-                                        <label asp-for="Nombre" class="control-label" required></label>
-                                        <input asp-for="Nombre" class="form-control" required/>
+                                        
+                                        <input asp-for="Nombre" class="form-control" placeholder="Nombre" required />
                                         <span asp-validation-for="Nombre" class="text-danger" required></span>
                                     </div>
 
-                                    <br />
-
                                     <div class="form-group">
-                                        <label asp-for="Apellido" class="control-label" required></label>
-                                        <input asp-for="Apellido" class="form-control" required />
-                                        <span asp-validation-for="Apellido" class="text-danger" required></span>
+                                        
+                                        <input asp-for="Apellido" class="form-control" placeholder="Apellido" required />
+                                        <span asp-validation-for="Apellido" class="text-danger"  required></span>
                                     </div>
 
-                                    <br />
-
                                     <div class="form-group">
-                                        <label asp-for="Celular" class="control-label" required></label>
-                                        <input asp-for="Celular" class="form-control" required />
+                                        <input asp-for="Celular" class="form-control" placeholder="Celular" required />
                                         <span asp-validation-for="Celular" class="text-danger" required></span>
                                     </div>
-                                </div>
-                                    <br />
-                                <div class="col-md-4">
+
+                                    
+
                                     <div class="form-group">
-                                        <label asp-for="Correo" class="control-label" required></label>
-                                        <input asp-for="Correo" class="form-control" required/>
-                                        <span asp-validation-for="Correo" class="text-danger" required></span>
+
+                                        <input asp-for="Telefono" class="form-control" required placeholder="Telefono" />
+                                        <span asp-validation-for="Telefono" class="text-danger" required></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    
+                                    <div class="form-group">
+                                        <input asp-for="FechaNacimiento" class="form-control" placeholder="Fecha Nacimineto" required />
+                                        <span asp-validation-for="FechaNacimiento" class="text-danger" required></span>
                                     </div>
 
-                                    <br />
 
                                     <div class="form-group">
-                                        <label asp-for="Ciudad" class="control-label" required></label>
-                                        <input asp-for="Ciudad" class="form-control" required required/>
+
+                                        <select asp-for="Genero" class="form-select form-select-sm" aria-label=".form-select-sm example" required>
+                                            <option selected disabled>  Genero  </option>
+                                            <option>  Masculino  </option>
+                                            <option>  Femenino  </option>
+                                            <option>  Helicoptero  </option>
+                                            <option>  Terodactilo  </option>
+                                            <option>  Prefiero no decirlo  </option>
+                                        </select>
+                                        <span asp-validation-for="Genero" class="text-danger" placeholder="Genero"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input asp-for="Ciudad" class="form-control"  placeholder="Ciudad" required />
                                         <span asp-validation-for="Ciudad" class="text-danger" required></span>
                                     </div>
 
-                                
-
-                                
-
                                     <div class="form-group">
-                                        <label asp-for="Genero" class="control-label"></label>
-                                        <select asp-for="Genero" class="form-select form-select-sm" aria-label=".form-select-sm example" required>
-                                            <option selected disabled>  Selecciona  </option>
-                                            <option>  Masculino  </option>
-                                            <option>  Femenino  </option>
-                                            <option>  Prefiero no decirlo  </option>
-                                        </select>
-                                        <span asp-validation-for="Genero" class="text-danger"></span>
-                                    </div>
-
-                                    <br />
-
-                                    <div class="form-group">
-                                        <label asp-for="Contraseña" class="control-label" required></label>
-                                        <input asp-for="Contraseña" class="form-control" required />
-                                        <span asp-validation-for="Contraseña" class="text-danger" required></span>
-                                    </div>
-                                </div>
-                                    <br />
-                                   <div class="col-md-4">
-                                    <div class="form-group">
-                                        <label asp-for="Telefono" class="control-label" required></label>
-                                        <input asp-for="Telefono" class="form-control" required />
-                                        <span asp-validation-for="Telefono" class="text-danger" required></span>
-                                    </div>
-
-                                    <br />
-
-                                    <div class="form-group">
-                                        <label asp-for="Direccion" class="control-label" required></label>
-                                        <input asp-for="Direccion" class="form-control" required />
+                                        <input asp-for="Direccion" class="form-control" placeholder="Dirección" required />
                                         <span asp-validation-for="Direccion" class="text-danger" required></span>
                                     </div>
 
-                                    <br />
-
                                     <div class="form-group">
-                                        <label asp-for="Estado" class="control-label"></label>
-                                        <select asp-for="Estado" class="form-select form-select-sm" aria-label=".form-select-sm example">
-                                            <option selected disabled>  Selecciona  </option>
-                                            <option>  Activo  </option>
-                                            <option>  Inactivo  </option>
-                                        </select>
-                                        <span asp-validation-for="Estado" class="text-danger"></span>
-                                    </div> 
-
-                                   <br />
-
-                                    <div class="form-group">
-                                        <label asp-for="CodigoRol" class="control-label"></label>
-                                        <input asp-for="CodigoRol" class="form-control" asp-items="ViewBag.CodigoRol">
+                                        <input asp-for="Correo" class="form-control" placeholder="Correo" required />
+                                        <span asp-validation-for="Correo" class="text-danger" required></span>
                                     </div>
+
+                                    <div class="form-group">
+                                        <input asp-for="Contraseña" class="form-control" required placeholder="Contraseña"/>
+                                        <span asp-validation-for="Contraseña" class="text-danger" required></span>
+                                    </div>
+
+                                    
                                 </div>
-                                    <br />
 
-                                    <div class="form-group">
-                                        <label asp-for="CodigoTipoDoc" class="control-label"></label>
-                                        <input asp-for="CodigoTipoDoc" class="form-control" asp-items="ViewBag.CodigoTipoDoc">
-                                    </div>
-
-                                    <br />
-
-                                
-
-                           @*  <input class="form-control mb-3" type="text" placeholder="Nombre" asp-for="Nombre" required />
-                            <input class="form-control mb-3" type="text" placeholder="Apellido" asp-for="Apellido" required />
-                            <input class="form-control mb-3" type="text" placeholder="Documento" asp-for="Documento" required />
-                            <input class="form-control mb-3" type="text" placeholder="Ciudad" asp-for="Ciudad" required />
-                            <input class="form-control mb-3" type="text" placeholder="Celular" asp-for="Celular" required />
-                            <input class="form-control mb-3" type="text" placeholder="Telefono" asp-for="Telefono" required />
-                            <input class="form-control mb-3" type="text" placeholder="Direccion" asp-for="Direccion" required />
-                            <input class="form-control mb-3" type="text" placeholder="Estado" asp-for="Estado" required />
-                            <input class="form-control mb-3" type="number" placeholder="CodigoRol" asp-for="CodigoRol" required />
-                            <input class="form-control mb-3" type="number" placeholder="CodigoTipoDoc" asp-for="CodigoTipoDoc" required />
-                            <input class="form-control mb-3" type="text" placeholder="Genero" asp-for="Genero" required />
-                            <input class="form-control mb-3" type="text" placeholder="Correo" asp-for="Correo" required />
-                            <input class="form-control mb-3" type="password" placeholder="Contraseña" asp-for="Contraseña" /> *@
-
-                            
-
-                            
-                            <div class="d-grid gap-2 mb-3">
-                                <button class="btn btn-primary" type="submit">Registrate</button>
                             </div>
-                            @if (ViewData["Mensaje"] != null)
-                            {
-
-                                <div class="form-group">
-                                    <div class="alert alert-danger" role="alert">
-                                        @ViewData["Mensaje"]
-                                    </div>
-                                </div>
-                            }
-                            ¿Ya tienes una cuenta? <a href="@Url.Action("IniciarSesion","Inicio")">Iniciar Sesion</a>
-
-                        
-
-
+                            <br />
+                            <div class="d-grid gap-1 mb-3">
+                                <button class="btn btn-primary" type="submit">Crear</button>
+                            </div>
+                            <div class="text-center">
+                                ¿Ya tienes una cuenta? <a href="@Url.Action("IniciarSesion","Inicio")">Iniciar Sesión</a>
+                            </div>
                         </div>
+
+                        @if (ViewData["Mensaje"] != null)
+                        {
+                            <div class="form-group">
+                                <div class="alert alert-danger" role="alert">
+                                    @ViewData["Mensaje"]
+                                </div>
+                            </div>
+                        }
+
+                       
                     </div>
-
-                </div>
-
+                </form>
             </div>
-
         </div>
-    </form>
-
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
     <script src="assets/demo/chart-area-demo.js"></script>
     <script src="assets/demo/chart-bar-demo.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
     <script src="~/js/datableSimpleDemo.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
-    <script src="~/js/site.js"></script>
+    
     <script src="~/js/datableDemo.js"></script>
 </body>
 </html>
+

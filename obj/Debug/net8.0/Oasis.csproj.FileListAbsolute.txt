@@ -250,3 +250,4 @@ C:\Users\57320\Desktop\PROGRAMACIÓN\DasboardFinalAspNet\Oasis\Oasis\Oasis\obj\D
 C:\Users\57320\Desktop\PROGRAMACIÓN\DasboardFinalAspNet\Oasis\Oasis\Oasis\obj\Debug\net8.0\Oasis.pdb
 C:\Users\57320\Desktop\PROGRAMACIÓN\DasboardFinalAspNet\Oasis\Oasis\Oasis\obj\Debug\net8.0\Oasis.genruntimeconfig.cache
 C:\Users\57320\Desktop\PROGRAMACIÓN\DasboardFinalAspNet\Oasis\Oasis\Oasis\obj\Debug\net8.0\ref\Oasis.dll
+C:\Users\57320\Desktop\PROGRAMACIÓN\DasboardFinalAspNet\Oasis\Oasis\Oasis\obj\Debug\net8.0\Oasis.sourcelink.json

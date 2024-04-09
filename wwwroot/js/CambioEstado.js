@@ -92,6 +92,7 @@
 $('.form-check-input').change(function () {
     var idusuario = $(this).data('idusuario');
     var nuevoEstado = $(this).prop('checked'); // true si est� marcado, false si no lo est�
+    console.log(idusuario)
 
     $.ajax({
         url: '/Usuarios/ActualizarEstado',

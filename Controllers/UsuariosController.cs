@@ -36,7 +36,7 @@ namespace Oasis.Controllers
         //    return View(await usuarios.ToListAsync());
         //}
 
-         // GET: Usuarios
+        // GET: Usuarios
         public async Task<IActionResult> Index()
         {
             var usuarios = _context.Usuarios.Include(u => u.CodigoRolNavigation).Include(u => u.CodigoRolNavigation);
@@ -49,7 +49,7 @@ namespace Oasis.Controllers
 
             if (id.HasValue)
             {
-                var rol = _context.Usuarios.Find(id.Value);
+                var rol = _context.Usuarios.Find(id.Value) ;
 
                 if (rol != null)
                 {

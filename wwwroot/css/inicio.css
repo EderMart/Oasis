@@ -1,0 +1,86 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#007F73, #4CCD99, #007F73);
+    display: flex; /* Para centrar verticalmente */
+    justify-content: center; /* Para centrar horizontalmente */
+    align-items: center; /* Para centrar verticalmente */
+    height: 100vh; /* Para ocupar toda la altura de la ventana */
+}
+
+.container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    width: 500px; /* Ajusta el ancho según sea necesario */
+    height: 550px;
+    position: absolute; /* Cambia la posición a absoluta */
+    top: 50%; /* Lo posiciona en el 50% del eje Y */
+    left: 50%; /* Lo posiciona en el 50% del eje X */
+    transform: translate(-50%, -50%); /* Lo centra exactamente */
+}
+
+
+
+
+/* Estilo para los formularios */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Estilo para las etiquetas de los campos de formulario */
+label.control-label {
+    font-weight: bold;
+}
+
+/* Estilo para los inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px; /* Reducir el padding para hacer los inputs más pequeños */
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* Estilo para los botones */
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+/* Estilo para los enlaces */
+a {
+    color: #007bff;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Estilo para el mensaje de error */
+.text-danger {
+    color: #dc3545;
+}
+
+/* Estilo para el texto en el centro */
+.text-center {
+    text-align: center;
+}

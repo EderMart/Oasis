@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wzLEUp3GVpfid4sCl8re1K0a+8yc7/sX+naM60tqzpU=",
+  "Hash": "B6ZncVf8bK7jiUfXOZiGVP2MlWcF0YCsial+24aDfRA=",
   "Source": "Oasis",
   "BasePath": "_content/Oasis",
   "Mode": "Default",
@@ -55,6 +55,25 @@
       "OriginalItemSpec": "C:\\Users\\57320\\Desktop\\PROGRAMACIÓN\\DasboardFinalAspNet\\Oasis\\Oasis\\Oasis\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Oasis.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\57320\\Desktop\\PROGRAMACIÓN\\DasboardFinalAspNet\\Oasis\\Oasis\\Oasis\\wwwroot\\css\\inicio.css",
+      "SourceId": "Oasis",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\57320\\Desktop\\PROGRAMACIÓN\\DasboardFinalAspNet\\Oasis\\Oasis\\Oasis\\wwwroot\\",
+      "BasePath": "_content/Oasis",
+      "RelativePath": "css/inicio.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\inicio.css"
+    },
+    {
       "Identity": "C:\\Users\\57320\\Desktop\\PROGRAMACIÓN\\DasboardFinalAspNet\\Oasis\\Oasis\\Oasis\\wwwroot\\css\\site.css",
       "SourceId": "Oasis",
       "SourceType": "Discovered",
@@ -72,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\57320\\Desktop\\PROGRAMACIÓN\\DasboardFinalAspNet\\Oasis\\Oasis\\Oasis\\wwwroot\\css\\style.css",
+      "SourceId": "Oasis",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\57320\\Desktop\\PROGRAMACIÓN\\DasboardFinalAspNet\\Oasis\\Oasis\\Oasis\\wwwroot\\",
+      "BasePath": "_content/Oasis",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "C:\\Users\\57320\\Desktop\\PROGRAMACIÓN\\DasboardFinalAspNet\\Oasis\\Oasis\\Oasis\\wwwroot\\favicon.ico",
@@ -148,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\datableSimpleDemo.js"
+    },
+    {
+      "Identity": "C:\\Users\\57320\\Desktop\\PROGRAMACIÓN\\DasboardFinalAspNet\\Oasis\\Oasis\\Oasis\\wwwroot\\js\\login.js",
+      "SourceId": "Oasis",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\57320\\Desktop\\PROGRAMACIÓN\\DasboardFinalAspNet\\Oasis\\Oasis\\Oasis\\wwwroot\\",
+      "BasePath": "_content/Oasis",
+      "RelativePath": "js/login.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login.js"
     },
     {
       "Identity": "C:\\Users\\57320\\Desktop\\PROGRAMACIÓN\\DasboardFinalAspNet\\Oasis\\Oasis\\Oasis\\wwwroot\\js\\reservaScript.js",
